@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Portafolio Valeria Camarillo</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+</head>
+<body>
+<nav class="navbar navbar-expand-md bg-white sticky-top wow fadeIn" data-wow-delay="5s">
+  <a class="navbar-brand" href="index.html"><img src="images/logo-nuevo-corto.png" alt="logo" class="headerLogo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+  </button>
+  <div class="collapse navbar-collapse navbar-wrapper" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+		<li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/portafolio.html">Portafolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/quien-soy.html">Quién Soy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="pages/como-funciona.html">¿Cómo funciona?</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<!-- Hero image -->
+	<section class="section heroImage">
+		<div class="contentWrapper">
+			<div class="heroImageText">
+				<h1 class="wow fadeIn">Diseño experiencias digitales, que comunicarán tus ideas, sin olvidar el arte </h1>
+				<p class="wow fadeIn"> ¡Hola! Soy Valeria, diseñadora gráfica, web, y artista. </p>
+			</div>
+		</div>
+		<div class="white-gradient"></div>	
+	</section>
+<!-- Quien soy -->
+	<section class="section quienSoy">
+		<div class="contentWrapper">
+			<div class="quienSoyImage">
+				<img src="images/Quiensoy-foto.jpg" alt="Foto de perfil">
+			</div>
+			<div class="quienSoyText">
+				<h2 class="sectionHeader">Sí, esa soy yo</h2>
+				<p>Diseñadora mexicana, especializada en diseño web y UI/UX. Graduada del <span><a href="https://www.cedim.edu.mx/en/" class="underlinedLink">CEDIM</a></span> en el 2019 con licenciatura en Diseño Gráfico.</p>
+				<p>Amo el arte y el diseño, y por ello dedico mi vida a crearlo. </p>
+			</div>
+		</div>
+	</section>
+<!-- Portafolio -->
+	<section class="section portafolio">
+		<div class="sectionHeaderWrapper">
+			<h2 class="sectionHeader">Conoce un poco de mi trabajo :)</h2>
+			<a href="pages/portafolio.html" class="primaryButton">Ver más</a>
+		</div>
+		<div class="contentWrapper">
+			<div class="proyect">
+				<button type="button" data-toggle="modal" data-target="#brandModal" class="modalButton">
+					<img src="images/portafolio-alvaro.jpg" alt="Proyecto 1">
+				</button>
+				<h6 class="proyect-label">Branding</h6>
+				<p>Creacion de marca personal para fotógrafo de Monterrey, Nuevo León</p>
+			</div>
+			<div class="proyect">
+				<button type="button" data-toggle="modal" data-target="#illusModal" class="modalButton">
+					<img src="images/portafolio-ilustracion.jpg" alt="Proyecto 2">
+				</button>
+				<h6 class="proyect-label">Illustracion</h6>
+				<p>Creada digital por gusto personal</p>
+			</div>
+			<div class="proyect">
+				<button type="button" data-toggle="modal" data-target="#webModal" class="modalButton">
+					<img src="images/portafolio-zintech.jpg" alt="Proyecto 3">
+				</button>
+				<h6 class="proyect-label">Diseño web y desarrollo</h6>
+				<p>Desarrollo web para la empresa de tecnología Zint3ch basada en CDMX</p>
+			</div>
+			
+		</div>
+	</section>
+
+<!-- The Modal -->
+<div class="modal fade" id="brandModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="images/portafolio-alvaro.jpg" alt="Proyecto 1" class="portafolioModalImage">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal fade" id="illusModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="images/portafolio-ilustracion.jpg" alt="Proyecto 2" class="portafolioModalImage">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal fade" id="webModal">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <img src="images/portafolio-zintech.jpg" alt="Proyecto 1" class="portafolioModalImage">
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Proceso -->
+	<section class="section sectionProceso">
+		<div class="contentWrapper">
+			<h2 class="sectionHeader">¿Cúal es mi proceso?</h2>
+			<h3 class="proceso__h3">Lorem ipsum, dolor, sit amet consectetur adipisicing eliti ste deleniti repellat veniam sequi.</h3>
+			<div class="proceso__wrapper--flex">
+				<div class="proceso__step">
+					<img src="images/icono-platicar.jpg" alt="Icono de platicar" class="proceso__step--icon">
+					<h5 class="proceso__step--h5">1. Platícame tu proyecto</h5>
+					<p class="proecso__step--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione excepturi explicabo nisi, adipisci accusamus.</p>
+				</div>
+				<div class="proceso__step">
+					<img src="images/icono-cotizacion.jpg" alt="Icono de cotización" class="proceso__step--icon">
+					<h5 class="proceso__step--h5">2. Te envío tu cotización</h5>
+					<p class="proecso__step--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione excepturi explicabo nisi, adipisci accusamus.</p>
+				</div>
+				<div class="proceso__step">
+					<img src="images/icono-diseñar.jpg" alt="Icono de diseño" class="proceso__step--icon">
+					<h5 class="proceso__step--h5">3. A diseñar!</h5>
+					<p class="proecso__step--parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ratione excepturi explicabo nisi, adipisci accusamus.</p>
+				</div>
+			</div>
+			<div class="proceso__footer">
+				<a href="pages/como-funciona.html" class="primaryButton">Ver detalle</a>
+			</div>
+			
+		</div>
+	</section>
+<!-- Forma de contacto -->
+	<section class="section sectionContacto">
+		<div class="contentWrapper">
+			<h2 class="sectionHeader">¿Estás listo para iniciar tu proyecto?</h2>
+
+			<div class="form__wrapper">
+				<form action="enviar.php" method="post">
+					<div class="contacto__form--row row">
+						<div class="contact__form--col col">
+							<label for="nombre">Nombre Completo</label>
+							<input class="form-control" type="text" name="nombre" placeholder="Ej. Jesus Martínez">	
+						</div>
+						<div class="contact__form--col col">
+							<label for="telefono">Teléfono</label>
+							<input class="form-control" type="tel" name="telefono" placeholder="834 1778 8889">
+						</div>
+					</div>
+					
+					<div class="contacto__form--row row">
+						<div class="contact__form--col col">
+							<label for="servicio">¿Qué servicio te interesa?</label>
+								<select name="servicio" class="form-control">
+									<option value="branding">Branding</option>
+									<option value="web">Diseño Web</option>
+									<option value="prograamcion">Programación</option>
+									<option value="illustracion">Illustración</option>
+								</select>
+							
+						</div>
+					</div>
+					<div class="contacto__form--row row">
+						<div class="contact__form--col col">
+							<label for="explicacion">¿De qué trata tu proyecto?</label>
+							<textarea class="form-control" name="explicacion" id="" cols="30" rows="5"></textarea>
+						</div>
+					</div>
+					
+					<div class="contacto__form--row row">
+						<div class="contact__form--col col">
+							<h5>¿Cómo te enteraste de mí?</h5>
+							<div class="form-check">
+								<label for="" class="form-check-label"><input class="form-check-input" type="checkbox" name="opciones">Redes sociales</label>
+							</div>
+							<div class="form-check">
+								<label for="" class="form-check-label"><input class="form-check-input" type="checkbox" name="opciones">Me pasaron tu contacto</label>
+							</div>
+							<div class="form-check">
+								<label for="" class="form-check-label"><input class="form-check-input" type="checkbox" name="opciones">Por medio de un buscador</label>
+							</div>
+						</div>
+					</div>
+					
+					
+					
+					<br>
+					<input type="submit" value="Submit" class="btn primaryButton">
+					<input type="reset" value="Reset" class="btn secondaryButton">
+				</form>
+			
+		</div>
+			
+		</div>
+	</section>
+<!-- footer -->
+<footer>
+	<div class="footerTop">
+		<div class="footerImage">
+			<img src="images/logo-completo-blanco.png" alt="">
+		</div>
+		<div class="footerLinks-wrapper">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="portafolio.html">Portafolio</a></li>
+				<li><a href="quien-soy.html">Quién Soy</a></li>
+				<li><a href="como-funciona.html">¿Cómo funciona?</a></li>
+				<li><a href="https://www.instagram.com/bocolitoo/?hl=en">Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footerBottom">
+		<a href="index.html">2021, Camarillo©</a>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+</body>
+</html>
