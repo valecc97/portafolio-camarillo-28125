@@ -492,6 +492,7 @@ footer {
   margin-bottom: 0;
   display: inline-flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .footerLinks-wrapper ul li {
   padding: 0 15px;
